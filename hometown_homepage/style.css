@@ -1,0 +1,120 @@
+/*
+color palette selector: 
+RICH PURPLE: #770058
+TEA ROSE: #EDBFB7
+MARIAN BLUE: #424874
+WHITE: #FFFF
+DARK PURPLE: #412234
+CAMBRIDGE BLUE: #73937E
+
+*/
+
+ 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+   color: #FFFF;
+   font-family: "DM Serif Display", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+ 
+   
+}
+
+
+.hero-section {
+    background-image: url(/images/London\ City.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 343px;
+    padding: 15px 20px;
+   
+}
+
+
+.text-shadow {
+    text-shadow: 4px 3px 0 #424874;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 200px;
+    border: solid 8px #770058;
+    background: #770058;
+
+}
+
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFF;
+    padding-top: 20px;
+
+}
+
+h5 {
+    font: 500;
+    font-size: large;
+}
+
+.content {
+    background-color: #EDBFB7;
+    padding: 30px 12px 10px;
+    
+}
+
+
+.title {
+    text-align: center;
+    
+}
+
+.text-bold{
+    font-size: 25px;
+    color: #424874;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: #424874;
+    gap: 40px;
+    padding: 25px 25px;
+
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 5px #424874;
+
+}
+
+
+
+.guide {
+    background: #73937E;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    
+
+}
+
+.photo {
+   width: 100%;
+   max-width: 600px;
+   border: solid 6px #424874;
+   box-shadow: 10px 5px 5px #424874;
+   
+}
+
